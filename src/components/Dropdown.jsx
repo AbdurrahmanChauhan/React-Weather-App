@@ -30,21 +30,21 @@ function Dropdown() {
         </Button>
       </InputGroup>
       
-      <div className="Dropdown">
-        <Form.Select
-          aria-label="Default select example"
-          className="form-select"
-          onChange={handleChange}
-        >
-          <option value="Mumbai">Mumbai</option>
-          <option value="Pune">Pune</option>
-          <option value="Nashik">Nashik</option>
-        </Form.Select>
-        <span>
-          <Button onClick={handleClick} variant="outline-success">
-            Fetch
-          </Button>{' '}
-        </span>
+//       <div className="Dropdown">
+//         <Form.Select
+//           aria-label="Default select example"
+//           className="form-select"
+//           onChange={handleChange}
+//         >
+//           <option value="Mumbai">Mumbai</option>
+//           <option value="Pune">Pune</option>
+//           <option value="Nashik">Nashik</option>
+//         </Form.Select>
+//         <span>
+//           <Button onClick={handleClick} variant="outline-success">
+//             Fetch
+//           </Button>{' '}
+//         </span>
       </div>
       <CityName city={city}/>
     </div>
