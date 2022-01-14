@@ -18,6 +18,18 @@ function Dropdown() {
 
   return (
     <div>
+      <InputGroup className="mb-3 searc-box">
+        <FormControl
+          placeholder="Enter your city name..."
+          aria-label="Enter your city name..."
+          aria-describedby="basic-addon2"
+          onChange={handleChange}
+        />
+        <Button variant="outline-success" id="button-addon2" onClick={handleClick}>
+          Fetch
+        </Button>
+      </InputGroup>
+      
       <div className="Dropdown">
         <Form.Select
           aria-label="Default select example"
