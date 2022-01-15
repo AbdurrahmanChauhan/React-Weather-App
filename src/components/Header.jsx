@@ -9,7 +9,7 @@ function Header() {
 
   function handleClick(){
       toggle ? document.body.style.backgroundColor = 'white' : document.body.style.backgroundColor = 'black'
-      toggle ? document.body.style.color = 'black' : document.body.style.color = 'white'
+      toggle ? document.body.style.color = 'black' : document.body.style.color = 'red'
       setToggle(!toggle)
   }
 

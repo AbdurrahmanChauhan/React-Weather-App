@@ -17,10 +17,16 @@ function GridCards(props) {
     hour: 'numeric',
   }
 
-  const { isLoading, data } = useFetch(
+  const { isLoading, data, error } = useFetch(
     "https://api.openweathermap.org/data/2.5/forecast?q="+props.city+"&appid=902d63a6bfbba904729f1ed561e1a4ca&units=metric#",
   )
-
+  if (error) {
+    return <div>
+      <p>Code: ${error.status}</p>
+      <p>Message: ${error.statusText}</p>
+    </div>
+  }
+  else{
   return isLoading ? (
     <div>Loading...</div>
   ) : (
@@ -73,5 +79,6 @@ function GridCards(props) {
       </Container>
     </div>
   )
+  }
 }
 export default GridCards

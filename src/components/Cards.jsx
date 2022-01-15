@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function Cards(props) {
   return (
     <div>
-      <Card id="cards">
+      <Card id="cards" className='cstm-cards'>
         <Card.Body>
           <Card.Title id="title">{props.title}</Card.Title>
           <Card.Subtitle id="subtitle" className="mb-2 text-muted">
