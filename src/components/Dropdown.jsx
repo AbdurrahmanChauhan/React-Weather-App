@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Button, Form,FormControl,InputGroup } from 'react-bootstrap'
+import { Button, Form} from 'react-bootstrap'
 import CityName from './CityName'
 
 function Dropdown() {
@@ -18,7 +18,7 @@ function Dropdown() {
 
   return (
     <div>
-      <InputGroup className="mb-3 searc-box">
+      {/* <InputGroup className="mb-3 searc-box">
         <FormControl
           placeholder="Enter your city name..."
           aria-label="Enter your city name..."
@@ -28,7 +28,7 @@ function Dropdown() {
         <Button variant="outline-success" id="button-addon2" onClick={handleClick}>
           Fetch
         </Button>
-      </InputGroup>
+      </InputGroup> */}
       
        <div className="Dropdown">
          <Form.Select
