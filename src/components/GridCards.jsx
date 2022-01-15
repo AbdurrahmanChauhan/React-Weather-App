@@ -39,6 +39,7 @@ function GridCards(props) {
             title={new Date( data.list[0].dt_txt).toLocaleDateString('en-US', option1)}
             subTitle={new Date( data.list[0].dt_txt).toLocaleDateString('en-US', option2)}
             img={('http://openweathermap.org/img/wn/' +  data.list[0].weather[0].icon + '@2x.png')}
+            temp={data.list[0].main.temp}
             desc={ data.list[0].weather[0].description}
             />
           </Col>
@@ -47,6 +48,7 @@ function GridCards(props) {
             title={new Date( data.list[3].dt_txt).toLocaleDateString('en-US', option1)}
             subTitle={new Date( data.list[3].dt_txt).toLocaleDateString('en-US', option2)}
             img={('http://openweathermap.org/img/wn/' +  data.list[3].weather[0].icon + '@2x.png')}
+            temp={data.list[3].main.temp}
             desc={ data.list[3].weather[0].description}
             />
           </Col>
@@ -55,6 +57,7 @@ function GridCards(props) {
             title={new Date( data.list[11].dt_txt).toLocaleDateString('en-US', option1)}
             subTitle={new Date( data.list[11].dt_txt).toLocaleDateString('en-US', option2)}
             img={('http://openweathermap.org/img/wn/' +  data.list[11].weather[0].icon + '@2x.png')}
+            temp={data.list[11].main.temp}
             desc={ data.list[11].weather[0].description}
             />
           </Col>
@@ -63,6 +66,7 @@ function GridCards(props) {
             title={new Date( data.list[19].dt_txt).toLocaleDateString('en-US', option1)}
             subTitle={new Date( data.list[19].dt_txt).toLocaleDateString('en-US', option2)}
             img={('http://openweathermap.org/img/wn/' +  data.list[19].weather[0].icon + '@2x.png')}
+            temp={data.list[19].main.temp}
             desc={ data.list[19].weather[0].description}
             />
           </Col>
@@ -71,6 +75,7 @@ function GridCards(props) {
             title={new Date( data.list[27].dt_txt).toLocaleDateString('en-US', option1)}
             subTitle={new Date( data.list[27].dt_txt).toLocaleDateString('en-US', option2)}
             img={('http://openweathermap.org/img/wn/' +  data.list[27].weather[0].icon + '@2x.png')}
+            temp={data.list[27].main.temp}
             desc={ data.list[27].weather[0].description}
             />
           </Col>

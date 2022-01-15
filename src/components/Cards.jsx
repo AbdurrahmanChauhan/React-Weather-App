@@ -13,6 +13,7 @@ function Cards(props) {
             <p>
               <img src={props.img} alt="weather" />
             </p>
+            <h3>{props.temp}℃</h3>
           </Card.Subtitle>
           <Card.Text id="description">{props.desc}</Card.Text>
         </Card.Body>
