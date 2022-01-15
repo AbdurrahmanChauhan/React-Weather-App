@@ -1,0 +1,77 @@
+C:\Users\chauh\Desktop\VS Code\Web Development\react-weather-project\weather-project>npm install netlify-cli -g
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated rollup-plugin-inject@3.0.2: This package has been deprecated and is no longer maintained. Please use 
+@rollup/plugin-inject.
+npm WARN deprecated flatten@1.0.3: flatten is deprecated in favor of utility frameworks such as lodash.
+npm WARN deprecated node-pre-gyp@0.13.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+
+added 1365 packages, and audited 1366 packages in 2m
+
+108 packages are looking for funding
+  run `npm fund` for details
+
+17 vulnerabilities (9 moderate, 8 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\chauh\Desktop\VS Code\Web Development\react-weather-project\weather-project>netlify deploy
+Logging into your Netlify account...
+Opening https://app.netlify.com/authorize?response_type=ticket&ticket=83fb737ccc75e03c8ba0736c26c548bc
+
+You are now logged into your Netlify account!
+
+Run netlify status for account details
+
+To see all available commands run: netlify help
+
+This folder isn't linked to a site yet
+? What would you like to do? +  Create & configure a new site
+? Team: KJSIEIT
+Choose a unique site name (e.g. the-great-AbdurrahmanChauhan-site.netlify.app) or leave it blank for a random name. You can update the site name later.
+? Site name (optional): Healthy-Trip-weather-project
+
+Site Created
+
+Admin URL: https://app.netlify.com/sites/Healthy-Trip-weather-project
+URL:       https://Healthy-Trip-weather-project.netlify.app
+Site ID:   318b8de5-35ad-4a1b-8c78-da4f89b06850
+Please provide a publish directory (e.g. "public" or "dist" or "."):
+C:\Users\chauh\Desktop\VS Code\Web Development\react-weather-project\weather-project
+? Publish directory C:\Users\chauh\Desktop\VS Code\Web Development\react-weather-project\weather-project\build
+Deploy path: C:\Users\chauh\Desktop\VS Code\Web Development\react-weather-project\weather-project\build
+Deploying to draft URL...
+✔ Finished hashing 7 files
+✔ CDN requesting 6 files
+✔ Finished uploading 6 assets
+✔ Deploy is live!
+
+Logs:              https://app.netlify.com/sites/healthy-trip-weather-project/deploys/61e2d8288eef0b519c256c8d
+Website Draft URL: https://61e2d8288eef0b519c256c8d--healthy-trip-weather-project.netlify.app
+
+If everything looks good on your draft URL, deploy it to your main site URL with the --prod flag.
+netlify deploy --prod
+
+
+C:\Users\chauh\Desktop\VS Code\Web Development\react-weather-project\weather-project>netlify deploy --prod 
+Please provide a publish directory (e.g. "public" or "dist" or "."):
+C:\Users\chauh\Desktop\VS Code\Web Development\react-weather-project\weather-project
+? Publish directory C:\Users\chauh\Desktop\VS Code\Web Development\react-weather-project\weather-project\build
+Deploy path: C:\Users\chauh\Desktop\VS Code\Web Development\react-weather-project\weather-project\build
+Deploying to main site URL...
+✔ Finished hashing 7 files
+✔ CDN requesting 0 files
+✔ Finished uploading 0 assets
+✔ Deploy is live!
+
+Logs:              https://app.netlify.com/sites/healthy-trip-weather-project/deploys/61e2d8a72224af3c3bfda913
+Unique Deploy URL: https://61e2d8a72224af3c3bfda913--healthy-trip-weather-project.netlify.app
+Website URL:       https://healthy-trip-weather-project.netlify.app
+
+C:\Users\chauh\Desktop\VS Code\Web Development\react-weather-project\weather-project>  
