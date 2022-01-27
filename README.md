@@ -1,3 +1,11 @@
+Created react-weather-app which will display 5 Days of forecast by using weather API,
+
+It contains search bar where we can type name of any city in the world and 
+
+then a button to fetch the next 5 days forecast .
+
+Deployed running project and the link is https://healthy-trip-weather-project.netlify.app/ 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
